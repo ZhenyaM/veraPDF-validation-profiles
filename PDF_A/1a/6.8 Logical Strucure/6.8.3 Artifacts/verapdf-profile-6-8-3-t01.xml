@@ -1,26 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<profile xmlns="http://www.verapdf.org/ValidationProfile" model="org.verapdf.model.PDFA1a">
-    <name>ISO 19005-1:2005 - 6.8.3 Artifacts - StructTreeRoot</name>
-    <description>The logical structure of the conforming file shall be described by a structure hierarchy rooted in the 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
+    <details creator="veraPDF Consortium" created="2015-11-04T18:50:44.726+03:00">
+        <name>ISO 19005-1:2005 - 6.8.3 Artifacts - StructTreeRoot</name>
+        <description>The logical structure of the conforming file shall be described by a structure hierarchy rooted in the 
 	StructTreeRoot entry of the document catalog dictionary, as described in PDF Reference 9.6</description>
-    <creator>veraPDF Consortium</creator>
-    <created>2015-18-10T20:24:12Z</created>
-    <hash>sha-1 hash code</hash>
+    </details>
+    <hash></hash>
     <rules>
-		<rule id="6-8-3-t01" object="PDDocument">
-			<description>The logical structure of the conforming file shall be described by a structure hierarchy rooted in the StructTreeRoot entry of the document catalog dictionary, as described in PDF Reference 9.6</description>
-			<test>StructTreeRoot_size == 1</test>
-			<error>
-				<message>StructTreeRoot entry is not present in the document catalog</message>
-			</error>
-			<reference>
-				<specification>ISO19005-1</specification>
-				<clause>6.8.3.3</clause>
-				<reference>
-					<specification>PDF 1.4 Reference</specification>
-					<clause>9.6.1</clause>
-				</reference>
-			</reference>
-		</rule>
-	</rules>
-</profile>
+        <rule object="PDDocument">
+            <id specifcation="ISO_19005_1" clause="6.8.3" testNumber="1"/>
+            <description>The logical structure of the conforming file shall be described by a structure hierarchy rooted in the StructTreeRoot entry of the document catalog dictionary, as described in PDF Reference 9.6</description>
+            <test>StructTreeRoot_size == 1</test>
+            <error>
+                <message>StructTreeRoot entry is not present in the document catalog</message>
+                <arguments/>
+            </error>
+            <references>
+                <reference specification="PDF 1.4 Reference" clause="9.6.1"/>
+            </references>
+        </rule>
+    </rules>
+    <variables/>
+</ns2:profile>

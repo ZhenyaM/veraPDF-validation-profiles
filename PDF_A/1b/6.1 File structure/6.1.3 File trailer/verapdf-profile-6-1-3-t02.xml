@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<profile xmlns="http://www.verapdf.org/ValidationProfile" model="org.verapdf.model.PDFA1a">
-    <name>ISO 19005-1:2005 - 6.1.3 File trailer - Encrypt</name>
-    <description>The keyword Encrypt shall not be used in the trailer dictionary</description>
-    <creator>veraPDF Consortium</creator>
-    <created>2015-06-02T13:22:15Z</created>
-    <hash>sha-1 hash code</hash>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
+    <details creator="veraPDF Consortium" created="2015-11-04T18:50:45.322+03:00">
+        <name>ISO 19005-1:2005 - 6.1.3 File trailer - Encrypt</name>
+        <description>The keyword Encrypt shall not be used in the trailer dictionary</description>
+    </details>
+    <hash></hash>
     <rules>
-		<rule id="6-1-3-t02" object="CosTrailer">
-			<description>The keyword Encrypt shall not be used in the trailer dictionary</description>
-			<test>isEncrypted != true</test>
-			<error>
-				<message>Encrypt keyword is present in the trailer dictionary</message>
-			</error>
-			<reference>
-				<specification>ISO19005-1:2005</specification>
-				<clause>6.1.3</clause>
-			</reference>
-		</rule>
-	</rules>
-</profile>
-
+        <rule object="CosTrailer">
+            <id specifcation="ISO_19005_1" clause="6.1.3" testNumber="2"/>
+            <description>The keyword Encrypt shall not be used in the trailer dictionary</description>
+            <test>isEncrypted != true</test>
+            <error>
+                <message>Encrypt keyword is present in the trailer dictionary</message>
+                <arguments/>
+            </error>
+            <references/>
+        </rule>
+    </rules>
+    <variables/>
+</ns2:profile>
