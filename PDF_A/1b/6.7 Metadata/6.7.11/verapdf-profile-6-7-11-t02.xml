@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
-    <details creator="veraPDF Consortium" created="2015-11-04T18:50:41.322+03:00">
-        <name>ISO 19005-1:2005 - 6.7.11 XMP Package - PDF/A Identification Schema.</name>
-        <description>The value of pdfaid:part shall be the part number of ISO 19005 to which the file conforms.</description>
-    </details>
-    <hash></hash>
-    <rules>
-        <rule object="PDFAIdSchema">
-            <id specifcation="ISO_19005_1" clause="6.7.11" testNumber="2"/>
-            <description>The value of pdfaid:part shall be the part number of ISO 19005 to which the file conforms.</description>
-            <test>part == 1</test>
-            <error>
-                <message>The &quot;part&quot; property of the PDF/A Identification Schema is %1 instead of 1 for PDF/A-1b conforming file.</message>
-                <arguments>
-                    <argument>part</argument>
-                </arguments>
-            </error>
-            <references/>
-        </rule>
-    </rules>
-    <variables/>
-</ns2:profile>
+<rule object="PDFAIdSchema">
+    <id specifcation="ISO_19005_1" clause="6.7.11" testNumber="2"/>
+    <description>The value of pdfaid:part shall be the part number of ISO 19005 to which the file conforms.</description>
+    <test>part == 1</test>
+    <error>
+        <message>The &quot;part&quot; property of the PDF/A Identification Schema is %1 instead of 1 for PDF/A-1b conforming file.</message>
+        <arguments>
+            <argument>part</argument>
+        </arguments>
+    </error>
+    <references/>
+</rule>

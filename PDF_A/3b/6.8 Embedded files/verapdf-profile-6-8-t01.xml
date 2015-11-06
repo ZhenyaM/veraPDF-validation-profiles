@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
-    <details created="2015-11-04T18:50:42.899+03:00">
-        <name>ISO 19005-3:2012 - 6.8 Embedded files - Subtype</name>
-        <description>The MIME type of an embedded file, or a subset of a file, shall be specified using the Subtype key of the file specification dictionary.
-	If the MIME type is not known, the &quot;application/octet-stream&quot; shall be used.</description>
-    </details>
-    <hash></hash>
-    <rules>
-        <rule object="EmbeddedFile">
-            <id specifcation="ISO_19005_1" clause="6.8" testNumber="1"/>
-            <description>The MIME type of an embedded file, or a subset of a file, shall be specified using the Subtype key of the file specification dictionary.
+<rule object="EmbeddedFile">
+    <id specifcation="ISO_19005_1" clause="6.8" testNumber="1"/>
+    <description>The MIME type of an embedded file, or a subset of a file, shall be specified using the Subtype key of the file specification dictionary.
 			If the MIME type is not known, the &quot;application/octet-stream&quot; shall be used.</description>
-            <test>Subtype != null</test>
-            <error>
-                <message>An embedded file dictionary doe snot contain the MIME type information (Subtype entry)</message>
-                <arguments/>
-            </error>
-            <references/>
-        </rule>
-    </rules>
-    <variables/>
-</ns2:profile>
+    <test>Subtype != null</test>
+    <error>
+        <message>An embedded file dictionary doe snot contain the MIME type information (Subtype entry)</message>
+        <arguments/>
+    </error>
+    <references/>
+</rule>

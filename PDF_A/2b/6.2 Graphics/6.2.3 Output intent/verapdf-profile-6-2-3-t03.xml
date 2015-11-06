@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
-    <details creator="veraPDF Consortium" created="2015-11-04T18:50:45.090+03:00">
-        <name>ISO 19005-2:2011 - 6.2.3 Output intent - DestOutputProfileRef entry</name>
-        <description>In addition, the DestOutputProfileRef key, as defined in ISO 15930-7:2010, Annex A, shall not be present in any PDF/X OutputIntent.</description>
-    </details>
-    <hash></hash>
-    <rules>
-        <rule object="PDOutputIntent">
-            <id specifcation="ISO_19005_1" clause="6.2.3" testNumber="3"/>
-            <description>In addition, the DestOutputProfileRef key, as defined in ISO 15930-7:2010, Annex A, shall not be present in any PDF/X OutputIntent.</description>
-            <test>DestOutputProfileRef_size == 0</test>
-            <error>
-                <message>The output intent dictionary contains forbidden entry DestOutputProfileRef</message>
-                <arguments/>
-            </error>
-            <references>
-                <reference specification="ISO15930-7:2010" clause="Annex A"/>
-            </references>
-        </rule>
-    </rules>
-    <variables/>
-</ns2:profile>
+<rule object="PDOutputIntent">
+    <id specifcation="ISO_19005_1" clause="6.2.3" testNumber="3"/>
+    <description>In addition, the DestOutputProfileRef key, as defined in ISO 15930-7:2010, Annex A, shall not be present in any PDF/X OutputIntent.</description>
+    <test>DestOutputProfileRef_size == 0</test>
+    <error>
+        <message>The output intent dictionary contains forbidden entry DestOutputProfileRef</message>
+        <arguments/>
+    </error>
+    <references>
+        <reference specification="ISO15930-7:2010" clause="Annex A"/>
+    </references>
+</rule>

@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
-    <details creator="veraPDF Consortium" created="2015-11-04T18:50:45.201+03:00">
-        <name>ISO 19005-2:2011 - 6.2.5 Extended graphics state - TR2 key</name>
-        <description>An ExtGState dictionary shall not contain the TR2 key with a value other than Default</description>
-    </details>
-    <hash></hash>
-    <rules>
-        <rule object="PDExtGState">
-            <id specifcation="ISO_19005_1" clause="6.2.5" testNumber="2"/>
-            <description>An ExtGState dictionary shall not contain the TR2 key with a value other than Default</description>
-            <test>TR2 == null || TR2 == &quot;Default&quot;</test>
-            <error>
-                <message>An ExtGState dictionary contains the TR2 key with a value other than Default</message>
-                <arguments/>
-            </error>
-            <references/>
-        </rule>
-    </rules>
-    <variables/>
-</ns2:profile>
+<rule object="PDExtGState">
+    <id specifcation="ISO_19005_1" clause="6.2.5" testNumber="2"/>
+    <description>An ExtGState dictionary shall not contain the TR2 key with a value other than Default</description>
+    <test>TR2 == null || TR2 == &quot;Default&quot;</test>
+    <error>
+        <message>An ExtGState dictionary contains the TR2 key with a value other than Default</message>
+        <arguments/>
+    </error>
+    <references/>
+</rule>

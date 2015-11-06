@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
-    <details creator="veraPDF Consortium" created="2015-11-04T18:50:44.511+03:00">
-        <name>ISO 19005-2:2011 - 6.1.7 Stream objects - 6.1.7.2 Filters</name>
-        <description>All standard stream filters listed in ISO 32000-1:2008, 7.4, Table 6 may be used, with the exception of LZWDecode.</description>
-    </details>
-    <hash></hash>
-    <rules>
-        <rule object="CosStream">
-            <id specifcation="ISO_19005_1" clause="6.1.7" testNumber="4"/>
-            <description>All standard stream filters listed in ISO 32000-1:2008, 7.4, Table 6 may be used, with the exception of LZWDecode.</description>
-            <test>filters == null || filters.indexOf(&quot;LZWDecode&quot;) == -1</test>
-            <error>
-                <message>LZW compression is used</message>
-                <arguments/>
-            </error>
-            <references/>
-        </rule>
-    </rules>
-    <variables/>
-</ns2:profile>
+<rule object="CosStream">
+    <id specifcation="ISO_19005_1" clause="6.1.7" testNumber="4"/>
+    <description>All standard stream filters listed in ISO 32000-1:2008, 7.4, Table 6 may be used, with the exception of LZWDecode.</description>
+    <test>filters == null || filters.indexOf(&quot;LZWDecode&quot;) == -1</test>
+    <error>
+        <message>LZW compression is used</message>
+        <arguments/>
+    </error>
+    <references/>
+</rule>

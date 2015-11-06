@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
-    <details creator="veraPDF Consortium" created="2015-11-04T18:50:44.856+03:00">
-        <name>ISO 19005-2:2011 - 6.2.5 Extended graphics state - Halftone name</name>
-        <description>Halftones in a conforming PDF/A-2 file shall not contain a HalftoneName key.</description>
-    </details>
-    <hash></hash>
-    <rules>
-        <rule object="PDHalftone">
-            <id specifcation="ISO_19005_1" clause="6.2.5" testNumber="5"/>
-            <description>Halftones in a conforming PDF/A-2 file shall not contain a HalftoneName key.</description>
-            <test>HalftoneName == null</test>
-            <error>
-                <message>A Halftone dictionary contains the HalftoneName key</message>
-                <arguments/>
-            </error>
-            <references/>
-        </rule>
-    </rules>
-    <variables/>
-</ns2:profile>
+<rule object="PDHalftone">
+    <id specifcation="ISO_19005_1" clause="6.2.5" testNumber="5"/>
+    <description>Halftones in a conforming PDF/A-2 file shall not contain a HalftoneName key.</description>
+    <test>HalftoneName == null</test>
+    <error>
+        <message>A Halftone dictionary contains the HalftoneName key</message>
+        <arguments/>
+    </error>
+    <references/>
+</rule>

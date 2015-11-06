@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
-    <details creator="veraPDF Consortium" created="2015-11-04T18:50:44.430+03:00">
-        <name>ISO 19005-2:2011 - 6.2.8 Images - Interpolate</name>
-        <description>If an Image dictionary contains the Interpolate key, its value shall be false. For an inline image, 
-	the I key shall have a value of false.</description>
-    </details>
-    <hash></hash>
-    <rules>
-        <rule object="PDXImage">
-            <id specifcation="ISO_19005_1" clause="6.2.8" testNumber="3"/>
-            <description>If an Image dictionary contains the Interpolate key, its value shall be false. 
+<rule object="PDXImage">
+    <id specifcation="ISO_19005_1" clause="6.2.8" testNumber="3"/>
+    <description>If an Image dictionary contains the Interpolate key, its value shall be false. 
 			For an inline image, the I key shall have a value of false.</description>
-            <test>Interpolate == false</test>
-            <error>
-                <message>The value of the Interpolate key in the Image dictionary is true</message>
-                <arguments/>
-            </error>
-            <references/>
-        </rule>
-    </rules>
-    <variables/>
-</ns2:profile>
+    <test>Interpolate == false</test>
+    <error>
+        <message>The value of the Interpolate key in the Image dictionary is true</message>
+        <arguments/>
+    </error>
+    <references/>
+</rule>

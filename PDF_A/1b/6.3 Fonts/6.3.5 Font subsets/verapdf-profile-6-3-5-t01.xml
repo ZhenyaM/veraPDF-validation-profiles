@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
-    <details creator="veraPDF Consortium" created="2015-11-04T18:50:44.584+03:00">
-        <name>ISO 19005-1:2005 - 6.3.5 Font subsets</name>
-        <description>Embedded font programs shall define all font glyphs referenced for rendering with a conforming file</description>
-    </details>
-    <hash></hash>
-    <rules>
-        <rule object="Glyph">
-            <id specifcation="ISO_19005_1" clause="6.3.5" testNumber="1"/>
-            <description>Embedded font programs shall define all font glyphs referenced for rendering with a conforming file</description>
-            <test>isGlyphPresent == true</test>
-            <error>
-                <message>Not all glyphs referenced for rendering are present in the embedded font program</message>
-                <arguments/>
-            </error>
-            <references/>
-        </rule>
-    </rules>
-    <variables/>
-</ns2:profile>
+<rule object="Glyph">
+    <id specifcation="ISO_19005_1" clause="6.3.5" testNumber="1"/>
+    <description>Embedded font programs shall define all font glyphs referenced for rendering with a conforming file</description>
+    <test>isGlyphPresent == true</test>
+    <error>
+        <message>Not all glyphs referenced for rendering are present in the embedded font program</message>
+        <arguments/>
+    </error>
+    <references/>
+</rule>

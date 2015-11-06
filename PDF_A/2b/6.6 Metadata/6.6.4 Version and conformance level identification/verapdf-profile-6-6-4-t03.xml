@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:profile xmlns:ns2="http://www.verapdf.org/ValidationProfile" flavour="PDFA_1_B">
-    <details creator="veraPDF Consortium" created="2015-11-04T18:50:45.301+03:00">
-        <name>ISO 19005-2:2011 - 6.6.4 Version and conformance level identification - Conformance level</name>
-        <description>Level B conforming file shall specify the value of pdfaid:conformance as B.</description>
-    </details>
-    <hash></hash>
-    <rules>
-        <rule object="PDFAIdSchema">
-            <id specifcation="ISO_19005_1" clause="6.6.4" testNumber="3"/>
-            <description>Level B conforming file shall specify the value of pdfaid:conformance as B.</description>
-            <test>conformance == &quot;B&quot;</test>
-            <error>
-                <message>The &quot;conformance&quot; property of the PDF/A Identification Schema is not equal to &quot;B&quot; for a PDF/A-2B conforming file.</message>
-                <arguments>
-                    <argument>conformance</argument>
-                </arguments>
-            </error>
-            <references/>
-        </rule>
-    </rules>
-    <variables/>
-</ns2:profile>
+<rule object="PDFAIdSchema">
+    <id specifcation="ISO_19005_1" clause="6.6.4" testNumber="3"/>
+    <description>Level B conforming file shall specify the value of pdfaid:conformance as B.</description>
+    <test>conformance == &quot;B&quot;</test>
+    <error>
+        <message>The &quot;conformance&quot; property of the PDF/A Identification Schema is not equal to &quot;B&quot; for a PDF/A-2B conforming file.</message>
+        <arguments>
+            <argument>conformance</argument>
+        </arguments>
+    </error>
+    <references/>
+</rule>
