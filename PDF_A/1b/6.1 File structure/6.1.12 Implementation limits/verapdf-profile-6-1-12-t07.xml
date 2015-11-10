@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosDocument">
-    <id specifcation="ISO_19005_1" clause="6.1.12" testNumber="7"/>
+    <id specification="ISO_19005_1" clause="6.1.12" testNumber="7"/>
     <description>Maximum number of indirect objects in a PDF file is 8,388,607</description>
     <test>nrIndirects &lt;= 8388607</test>
     <error>

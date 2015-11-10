@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosStream">
-    <id specifcation="ISO_19005_1" clause="6.1.7" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.1.7" testNumber="3"/>
     <description>A stream object dictionary shall not contain the F, FFilter, or FDecodeParms keys</description>
     <test>F == null &amp;&amp; FFilter == null &amp;&amp; FDecodeParms == null</test>
     <error>

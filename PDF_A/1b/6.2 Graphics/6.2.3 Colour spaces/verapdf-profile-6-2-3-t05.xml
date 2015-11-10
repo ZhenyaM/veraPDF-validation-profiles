@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="ICCProfile">
-    <id specifcation="ISO_19005_1" clause="6.2.3" testNumber="5"/>
+    <id specification="ISO_19005_1" clause="6.2.3" testNumber="5"/>
     <description>All ICCBased colour spaces shall be embedded as ICC profile streams as described in PDF Reference 4.5.
 			The number of color components in the color space described by the ICC profile data must match the number of components actually in the ICC profile. 
 			As of PDF 1.4, N must be 1, 3, or 4</description>

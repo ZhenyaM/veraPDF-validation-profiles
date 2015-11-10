@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="Glyph">
-    <id specifcation="ISO_19005_1" clause="6.2.11.8" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.2.11.8" testNumber="1"/>
     <description>A PDF/A-2 compliant document shall not contain a reference to the .notdef glyph from any of the text showing
 			operators, regardless of text rendering mode, in any content stream.</description>
     <test>name != &quot;.notdef&quot;</test>

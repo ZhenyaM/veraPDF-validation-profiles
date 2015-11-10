@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosString">
-    <id specifcation="ISO_19005_1" clause="6.1.6" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.1.6" testNumber="2"/>
     <description>A hexadecimal string is written as a sequence of hexadecimal digits (0–9 and either A–F or a–f)</description>
     <test>(isHex != true) || containsOnlyHex</test>
     <error>

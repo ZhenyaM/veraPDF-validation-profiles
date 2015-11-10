@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="Op_q_gsave">
-    <id specifcation="ISO_19005_1" clause="6.1.12" testNumber="8"/>
+    <id specification="ISO_19005_1" clause="6.1.12" testNumber="8"/>
     <description>Maximum depth of graphics state nesting by q and Q operators is 28</description>
     <test>nestingLevel &lt;= 28</test>
     <error>

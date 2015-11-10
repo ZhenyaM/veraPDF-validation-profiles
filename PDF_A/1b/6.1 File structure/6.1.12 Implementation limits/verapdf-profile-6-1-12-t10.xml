@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CIDGlyph">
-    <id specifcation="ISO_19005_1" clause="6.1.12" testNumber="10"/>
+    <id specification="ISO_19005_1" clause="6.1.12" testNumber="10"/>
     <description>Maximum value of a CID (character identifier) is 65,535</description>
     <test>CID &lt;= 65535</test>
     <error>

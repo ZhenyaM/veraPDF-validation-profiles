@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDType1Font">
-    <id specifcation="ISO_19005_1" clause="6.2.11.4" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.2.11.4" testNumber="3"/>
     <description>If the FontDescriptor dictionary of an embedded Type 1 font contains a CharSet string, then it shall list the character names of all glyphs
 			present in the font program, regardless of whether a glyph in the font is referenced or used by the PDF or not.</description>
     <test>CharSet == null || charSetListsAllGlyphs == true</test>

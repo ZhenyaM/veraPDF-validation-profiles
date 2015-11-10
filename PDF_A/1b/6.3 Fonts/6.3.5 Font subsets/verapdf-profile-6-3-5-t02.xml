@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDType1Font">
-    <id specifcation="ISO_19005_1" clause="6.3.5" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.3.5" testNumber="2"/>
     <description>For all Type 1 font subsets referenced within a conforming file, the font descriptor dictionary shall include a CharSet string
 			listing the character names defined in the font subset, as described in PDF Reference Table 5.18</description>
     <test>fontName.search(/[A-Z]{6}\+/) != 0 || CharSet != null</test>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDType0Font">
-    <id specifcation="ISO_19005_1" clause="6.3.3" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.3.3" testNumber="1"/>
     <description>For any given composite (Type 0) font referenced within a conforming file, the CIDSystemInfo entries of its 
 			CIDFont and CMap dictionaries shall be compatible</description>
     <test>areRegistryOrderingCompatible == true</test>

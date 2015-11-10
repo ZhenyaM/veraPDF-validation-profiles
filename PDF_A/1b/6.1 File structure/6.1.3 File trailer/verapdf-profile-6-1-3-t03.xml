@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosDocument">
-    <id specifcation="ISO_19005_1" clause="6.1.3" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.1.3" testNumber="3"/>
     <description>No data shall follow the last end-of-file marker except a single optional end-of-line marker.</description>
     <test>postEOFDataSize == 0</test>
     <error>

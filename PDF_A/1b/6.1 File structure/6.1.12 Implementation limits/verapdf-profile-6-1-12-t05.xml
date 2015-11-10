@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosArray">
-    <id specifcation="ISO_19005_1" clause="6.1.12" testNumber="5"/>
+    <id specification="ISO_19005_1" clause="6.1.12" testNumber="5"/>
     <description>Maximum capacity of an array (in elements) is 8191</description>
     <test>size &lt;= 8191</test>
     <error>

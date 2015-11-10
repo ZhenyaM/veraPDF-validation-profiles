@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosBBox">
-    <id specifcation="ISO_19005_1" clause="6.1.13" testNumber="11"/>
+    <id specification="ISO_19005_1" clause="6.1.13" testNumber="11"/>
     <description>The size of any of the page boundaries described in ISO 32000-1:2008, 14.11.2 shall not be less than 3 units
 			in either direction, nor shall it be greater than 14 400 units in either direction.</description>
     <test>top - bottom &gt;= 3 &amp;&amp; top - bottom &lt;= 14400 &amp;&amp; right - left &gt;= 3 &amp;&amp; right - left &lt;= 14400</test>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDDocument">
-    <id specifcation="ISO_19005_1" clause="6.8.3" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.8.3" testNumber="1"/>
     <description>The logical structure of the conforming file shall be described by a structure hierarchy rooted in the StructTreeRoot entry of the document catalog dictionary, as described in PDF Reference 9.6</description>
     <test>StructTreeRoot_size == 1</test>
     <error>

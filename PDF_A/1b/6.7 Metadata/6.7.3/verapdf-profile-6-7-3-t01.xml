@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosDocument">
-    <id specifcation="ISO_19005_1" clause="6.7.3" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.7.3" testNumber="1"/>
     <description>If a document information dictionary does appear at a document, then all of its entries that have analogous properties in predefined XMP schemas, shall also be embedded in the file in XMP form with equivalent values.</description>
     <test>doesInfoMatchXMP</test>
     <error>

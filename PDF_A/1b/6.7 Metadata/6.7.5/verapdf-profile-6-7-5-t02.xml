@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="XMPPackage">
-    <id specifcation="ISO_19005_1" clause="6.7.5" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.7.5" testNumber="2"/>
     <description>The encoding attribute shall not be used in the header of an XMP packet.</description>
     <test>encoding == null</test>
     <error>

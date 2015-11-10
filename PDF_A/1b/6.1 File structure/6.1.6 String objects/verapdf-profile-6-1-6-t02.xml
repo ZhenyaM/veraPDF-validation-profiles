@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosString">
-    <id specifcation="ISO_19005_1" clause="6.1.6" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.1.6" testNumber="2"/>
     <description>All non-white-space characters in hexadecimal strings shall be in the range 0 to 9, A to F or a to f</description>
     <test>(isHex != true) || containsOnlyHex</test>
     <error>

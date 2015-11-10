@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDInlineImage">
-    <id specifcation="ISO_19005_1" clause="6.1.10" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.1.10" testNumber="2"/>
     <description>The LZWDecode filter shall not be permitted</description>
     <test>F == null || F.indexOf(&quot;LZW&quot;) == -1</test>
     <error>

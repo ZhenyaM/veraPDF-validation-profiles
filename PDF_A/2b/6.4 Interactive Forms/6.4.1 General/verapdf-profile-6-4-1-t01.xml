@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDAnnot">
-    <id specifcation="ISO_19005_1" clause="6.4.1" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.4.1" testNumber="1"/>
     <description>A Widget annotation dictionary or Field dictionary shall not contain the A or AA keys.</description>
     <test>Subtype != &quot;Widget&quot; || (A_size == 0 &amp;&amp; AA_size == 0)</test>
     <error>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDAcroForm">
-    <id specifcation="ISO_19005_1" clause="6.9" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.9" testNumber="1"/>
     <description>The NeedAppearances flag of the interactive form dictionary shall either not be present or shall be false</description>
     <test>NeedAppearances == null || NeedAppearances == false</test>
     <error>

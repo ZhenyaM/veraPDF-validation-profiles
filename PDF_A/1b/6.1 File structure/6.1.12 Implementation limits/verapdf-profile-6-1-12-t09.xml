@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDDeviceN">
-    <id specifcation="ISO_19005_1" clause="6.1.12" testNumber="9"/>
+    <id specification="ISO_19005_1" clause="6.1.12" testNumber="9"/>
     <description>Maximum number of DeviceN components is 8</description>
     <test>nrComponents &lt;= 8</test>
     <error>

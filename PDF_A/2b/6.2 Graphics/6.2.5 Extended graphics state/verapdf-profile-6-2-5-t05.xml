@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDHalftone">
-    <id specifcation="ISO_19005_1" clause="6.2.5" testNumber="5"/>
+    <id specification="ISO_19005_1" clause="6.2.5" testNumber="5"/>
     <description>Halftones in a conforming PDF/A-2 file shall not contain a HalftoneName key.</description>
     <test>HalftoneName == null</test>
     <error>

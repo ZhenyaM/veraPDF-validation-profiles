@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDAnnot">
-    <id specifcation="ISO_19005_1" clause="6.5.3" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.5.3" testNumber="1"/>
     <description>An annotation dictionary shall not contain the CA key with a value other than 1.0</description>
     <test>CA == null || CA == 1.0</test>
     <error>

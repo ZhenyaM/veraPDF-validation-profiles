@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="TrueTypeFontProgram">
-    <id specifcation="ISO_19005_1" clause="6.2.11.6" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.2.11.6" testNumber="1"/>
     <description>For all non-symbolic TrueType fonts used for rendering, the embedded TrueType font program shall contain one or several non-symbolic 
 			cmap entries such that all necessary glyph lookups can be carried out.</description>
     <test>isSymbolic == true || nrCmaps &gt;= 1</test>

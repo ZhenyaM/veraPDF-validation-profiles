@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDDeviceCMYK">
-    <id specifcation="ISO_19005_1" clause="6.2.4" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.2.4" testNumber="3"/>
     <description>DeviceCMYK shall only be used if a device independent DefaultCMYK colour space has been set or if a DeviceN-based DefaultCMYK colour space
 			has been set when the DeviceCMYK colour space is used or the file has a PDF/A OutputIntent that contains a CMYK destination profile.</description>
     <test>gOutputCS != null &amp;&amp; gOutputCS == &quot;CMYK&quot;</test>

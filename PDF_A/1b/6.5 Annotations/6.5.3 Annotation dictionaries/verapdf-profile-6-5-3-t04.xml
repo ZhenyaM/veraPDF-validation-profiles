@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDAnnot">
-    <id specifcation="ISO_19005_1" clause="6.5.3" testNumber="4"/>
+    <id specification="ISO_19005_1" clause="6.5.3" testNumber="4"/>
     <description>For all annotation dictionaries containing an AP key, the appearance dictionary that it defines as its value shall contain only the N key. 
 			If an annotation dictionary’s Subtype key has a value of Widget and its FT key has a value of Btn, the value of the N key shall be an appearance 
 			subdictionary; otherwise the value of the N key shall be an appearance stream.</description>

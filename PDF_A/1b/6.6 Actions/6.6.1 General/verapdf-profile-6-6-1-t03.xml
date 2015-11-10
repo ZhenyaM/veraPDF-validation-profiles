@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDAnnot">
-    <id specifcation="ISO_19005_1" clause="6.6.1" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.6.1" testNumber="3"/>
     <description>Interactive form fields shall not perform actions of any type</description>
     <test>Subtype != &quot;Widget&quot; || A_size == 0</test>
     <error>

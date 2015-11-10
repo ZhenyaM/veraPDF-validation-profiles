@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosDocument">
-    <id specifcation="ISO_19005_1" clause="6.1.11" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.1.11" testNumber="2"/>
     <description>A file's name dictionary, as defined in PDF Reference 3.6.3, shall not contain the EmbeddedFiles key</description>
     <test>EmbeddedFiles_size == 0</test>
     <error>

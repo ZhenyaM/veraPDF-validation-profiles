@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDTrueTypeFont">
-    <id specifcation="ISO_19005_1" clause="6.2.11.6" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.2.11.6" testNumber="3"/>
     <description>Symbolic TrueType fonts shall not contain an Encoding entry in the font dictionary</description>
     <test>isSymbolic == false || Encoding == null</test>
     <error>

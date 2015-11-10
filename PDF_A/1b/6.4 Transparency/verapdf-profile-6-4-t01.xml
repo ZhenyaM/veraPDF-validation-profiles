@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDExtGState">
-    <id specifcation="ISO_19005_1" clause="6.4" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.4" testNumber="1"/>
     <description>If an SMask key appears in an ExtGState dictionary, its value shall be None</description>
     <test>SMask == null || SMask == &quot;None&quot;</test>
     <error>

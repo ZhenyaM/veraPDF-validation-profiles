@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="Glyph">
-    <id specifcation="ISO_19005_1" clause="6.3.6" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.3.6" testNumber="1"/>
     <description>For every font embedded in a conforming file, the glyph width information stored in the Widths entry of the 
 			font dictionary and in the embedded font program shall be consistent</description>
     <test>isWidthConsistent == true</test>

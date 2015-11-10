@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDFAIdSchema">
-    <id specifcation="ISO_19005_1" clause="6.7.11" testNumber="5"/>
+    <id specification="ISO_19005_1" clause="6.7.11" testNumber="5"/>
     <description>The PDF/A Identification Schema has required prefix &quot;pdfaid&quot;.</description>
     <test>prefix == &quot;pdfaid&quot;</test>
     <error>

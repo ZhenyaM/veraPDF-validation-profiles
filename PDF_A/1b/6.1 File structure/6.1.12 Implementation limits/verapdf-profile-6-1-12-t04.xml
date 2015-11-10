@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosName">
-    <id specifcation="ISO_19005_1" clause="6.1.12" testNumber="4"/>
+    <id specification="ISO_19005_1" clause="6.1.12" testNumber="4"/>
     <description>Maximum length of a name (in bytes) is 127</description>
     <test>internalRepresentation.length() &lt;= 127</test>
     <error>

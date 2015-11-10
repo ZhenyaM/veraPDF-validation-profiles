@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDExtGState">
-    <id specifcation="ISO_19005_1" clause="6.2.5" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.2.5" testNumber="2"/>
     <description>An ExtGState dictionary shall not contain the TR2 key with a value other than Default</description>
     <test>TR2 == null || TR2 == &quot;Default&quot;</test>
     <error>

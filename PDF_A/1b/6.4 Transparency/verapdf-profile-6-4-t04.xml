@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDExtGState">
-    <id specifcation="ISO_19005_1" clause="6.4" testNumber="4"/>
+    <id specification="ISO_19005_1" clause="6.4" testNumber="4"/>
     <description>The following keys, if present in an ExtGState object, shall have the values shown: BM - Normal or Compatible</description>
     <test>BM == null || BM == &quot;Normal&quot; || BM == &quot;Compatible&quot;</test>
     <error>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDDeviceGray">
-    <id specifcation="ISO_19005_1" clause="6.2.4" testNumber="4"/>
+    <id specification="ISO_19005_1" clause="6.2.4" testNumber="4"/>
     <description>DeviceGray shall only be used if a device independent DefaultGray colour space has been set when the DeviceGray colour space is used,
 			or if a PDF/A OutputIntent is present.</description>
     <test>gOutputCS != null</test>

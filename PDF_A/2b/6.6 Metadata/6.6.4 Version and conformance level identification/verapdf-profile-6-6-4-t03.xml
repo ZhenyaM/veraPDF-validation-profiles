@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDFAIdSchema">
-    <id specifcation="ISO_19005_1" clause="6.6.4" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.6.4" testNumber="3"/>
     <description>Level B conforming file shall specify the value of pdfaid:conformance as B.</description>
     <test>conformance == &quot;B&quot;</test>
     <error>

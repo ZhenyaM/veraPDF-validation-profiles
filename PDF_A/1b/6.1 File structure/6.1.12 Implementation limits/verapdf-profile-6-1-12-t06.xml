@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosDict">
-    <id specifcation="ISO_19005_1" clause="6.1.12" testNumber="6"/>
+    <id specification="ISO_19005_1" clause="6.1.12" testNumber="6"/>
     <description>Maximum capacity of a dictionary (in entries) is 4095</description>
     <test>size &lt;= 4095</test>
     <error>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosRenderingIntent">
-    <id specifcation="ISO_19005_1" clause="6.2.9" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.2.9" testNumber="1"/>
     <description>Where a rendering intent is specified, its value shall be one of the four values defined in PDF Reference
 			RelativeColorimetric, AbsoluteColorimetric, Perceptual or Saturation</description>
     <test>internalRepresentation == &quot;RelativeColorimetric&quot; || internalRepresentation == &quot;AbsoluteColorimetric&quot; || internalRepresentation == &quot;Perceptual&quot; || internalRepresentation == &quot;Saturation&quot;</test>

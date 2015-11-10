@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDDeviceN">
-    <id specifcation="ISO_19005_1" clause="6.1.13" testNumber="9"/>
+    <id specification="ISO_19005_1" clause="6.1.13" testNumber="9"/>
     <description>A conforming file shall not contain a DeviceN colour space with more than 32 colourants.</description>
     <test>nrComponents &lt;= 32</test>
     <error>

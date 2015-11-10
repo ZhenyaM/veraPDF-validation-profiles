@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosStream">
-    <id specifcation="ISO_19005_1" clause="6.1.10" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.1.10" testNumber="1"/>
     <description>The LZWDecode filter shall not be permitted</description>
     <test>filters == null || filters.indexOf(&quot;LZWDecode&quot;) == -1</test>
     <error>

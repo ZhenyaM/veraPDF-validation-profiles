@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosFileSpecification">
-    <id specifcation="ISO_19005_1" clause="6.8" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.8" testNumber="3"/>
     <description>In order to enable identification of the relationship between the file specification dictionary and the content that is referring to it,
 			a new (required) key has been defined and its presence (in the dictionary) is required.</description>
     <test>AFRelationship != null</test>

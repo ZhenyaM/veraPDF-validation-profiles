@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDGroup">
-    <id specifcation="ISO_19005_1" clause="6.4" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.4" testNumber="3"/>
     <description>A Group object with an S key with a value of Transparency shall not be included in a form XObject. 
 			A Group object with an S key with a value of Transparency shall not be included in a page dictionary</description>
     <test>S != &quot;Transparency&quot;</test>

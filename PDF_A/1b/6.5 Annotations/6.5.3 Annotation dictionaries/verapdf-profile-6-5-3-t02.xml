@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDAnnot">
-    <id specifcation="ISO_19005_1" clause="6.5.3" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.5.3" testNumber="2"/>
     <description>An annotation dictionary shall contain the F key. The F key’s Print flag bit shall be set to 1 and its Hidden,
 			Invisible and NoView flag bits shall be set to 0</description>
     <test>F != null &amp;&amp; (F &amp; 4) == 4 &amp;&amp; (F &amp; 1) == 0 &amp;&amp; (F &amp; 2) == 0 &amp;&amp; (F &amp; 32) == 0</test>

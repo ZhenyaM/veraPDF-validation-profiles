@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDFont">
-    <id specifcation="ISO_19005_1" clause="6.3.2" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.3.2" testNumber="2"/>
     <description>All fonts used in a conforming file shall conform to the font specifications defined in PDF Reference 5.5. 
 			Subtype - name - (Required) The type of font; must be &quot;Type1&quot; for Type 1 fonts, &quot;MMType1&quot; for multiple master fonts, &quot;TrueType&quot; for TrueType fonts
 			&quot;Type3&quot; for Type 3 fonts, &quot;Type0&quot; for Type 0 fonts and &quot;CIDFontType0&quot; or &quot;CIDFontType2&quot; for CID fonts</description>

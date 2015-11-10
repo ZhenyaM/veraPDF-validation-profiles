@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosString">
-    <id specifcation="ISO_19005_1" clause="6.1.12" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.1.12" testNumber="3"/>
     <description>Maximum length of a string (in bytes) is 65535</description>
     <test>value.length() &lt; 65536</test>
     <error>

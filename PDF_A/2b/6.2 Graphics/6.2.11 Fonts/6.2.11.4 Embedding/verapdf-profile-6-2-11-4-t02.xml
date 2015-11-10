@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="Glyph">
-    <id specifcation="ISO_19005_1" clause="6.2.11.4" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.2.11.4" testNumber="2"/>
     <description>Embedded fonts shall define all glyphs referenced for rendering within the conforming file.</description>
     <test>isGlyphPresent == true</test>
     <error>

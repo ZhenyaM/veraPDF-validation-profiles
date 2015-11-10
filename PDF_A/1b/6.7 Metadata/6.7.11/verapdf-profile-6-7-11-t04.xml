@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDFAIdSchema">
-    <id specifcation="ISO_19005_1" clause="6.7.11" testNumber="4"/>
+    <id specification="ISO_19005_1" clause="6.7.11" testNumber="4"/>
     <description>The property &quot;corr&quot; is not specified in PDF/A Identification Schema in PDF/A-1 specification.</description>
     <test>corr == null</test>
     <error>

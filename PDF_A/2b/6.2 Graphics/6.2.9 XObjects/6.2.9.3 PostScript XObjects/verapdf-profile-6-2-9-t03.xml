@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDXObject">
-    <id specifcation="ISO_19005_1" clause="6.2.9" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.2.9" testNumber="3"/>
     <description>A conforming file shall not contain any PostScript XObjects</description>
     <test>Subtype != &quot;PS&quot;</test>
     <error>

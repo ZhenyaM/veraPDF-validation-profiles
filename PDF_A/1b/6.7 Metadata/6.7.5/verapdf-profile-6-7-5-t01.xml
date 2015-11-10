@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="XMPPackage">
-    <id specifcation="ISO_19005_1" clause="6.7.5" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.7.5" testNumber="1"/>
     <description>The bytes attribute shall not be used in the header of an XMP packet.</description>
     <test>bytes == null</test>
     <error>

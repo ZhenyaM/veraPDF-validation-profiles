@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDDeviceRGB">
-    <id specifcation="ISO_19005_1" clause="6.2.4" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.2.4" testNumber="2"/>
     <description>DeviceRGB shall only be used if a device independent DefaultRGB colour space has been set when the DeviceRGB colour space is used,
 			or if the file has a PDF/A OutputIntent that contains an RGB destination profile.</description>
     <test>gOutputCS != null &amp;&amp; gOutputCS == &quot;RGB &quot;</test>

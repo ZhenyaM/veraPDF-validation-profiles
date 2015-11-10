@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosXRef">
-    <id specifcation="ISO_19005_1" clause="6.1.4" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.1.4" testNumber="1"/>
     <description>In a cross reference subsection header the starting object number and the range shall be separated by a single SPACE character (20h)</description>
     <test>subsectionHeaderSpaceSeparated == true</test>
     <error>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="TrueTypeFontProgram">
-    <id specifcation="ISO_19005_1" clause="6.3.7" testNumber="3"/>
+    <id specification="ISO_19005_1" clause="6.3.7" testNumber="3"/>
     <description>Font programs' &quot;cmap&quot; tables for all symbolic TrueType fonts shall contain exactly one encoding</description>
     <test>isSymbolic == false || nrCmaps == 1</test>
     <error>

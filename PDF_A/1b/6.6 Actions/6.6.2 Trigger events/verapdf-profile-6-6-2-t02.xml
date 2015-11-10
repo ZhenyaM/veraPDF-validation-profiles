@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDFormField">
-    <id specifcation="ISO_19005_1" clause="6.6.2" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.6.2" testNumber="2"/>
     <description>A Field dictionary shall not include an AA entry for an additional-actions dictionary</description>
     <test>AA_size == 0</test>
     <error>

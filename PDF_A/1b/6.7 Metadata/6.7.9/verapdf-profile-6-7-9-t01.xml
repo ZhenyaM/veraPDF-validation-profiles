@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="XMPPackage">
-    <id specifcation="ISO_19005_1" clause="6.7.9" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.7.9" testNumber="1"/>
     <description>The metadata stream shall conform to XMP 2004 Specification and well formed PDFAExtension Schema for all extensions.</description>
     <test>isMetadataValid</test>
     <error>

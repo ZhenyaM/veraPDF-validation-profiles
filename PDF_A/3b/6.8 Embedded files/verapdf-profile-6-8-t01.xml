@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="EmbeddedFile">
-    <id specifcation="ISO_19005_1" clause="6.8" testNumber="1"/>
+    <id specification="ISO_19005_1" clause="6.8" testNumber="1"/>
     <description>The MIME type of an embedded file, or a subset of a file, shall be specified using the Subtype key of the file specification dictionary.
 			If the MIME type is not known, the &quot;application/octet-stream&quot; shall be used.</description>
     <test>Subtype != null</test>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDFAIdSchema">
-    <id specifcation="ISO_19005_1" clause="6.7.11" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.7.11" testNumber="2"/>
     <description>The value of pdfaid:part shall be the part number of ISO 19005 to which the file conforms.</description>
     <test>part == 1</test>
     <error>

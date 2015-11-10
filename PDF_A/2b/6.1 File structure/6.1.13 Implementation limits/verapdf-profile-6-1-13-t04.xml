@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosName">
-    <id specifcation="ISO_19005_1" clause="6.1.13" testNumber="4"/>
+    <id specification="ISO_19005_1" clause="6.1.13" testNumber="4"/>
     <description>A conforming file shall not contain any name longer than 127 bytes.</description>
     <test>origLength &lt;= 127</test>
     <error>

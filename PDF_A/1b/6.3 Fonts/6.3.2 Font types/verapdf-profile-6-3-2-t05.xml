@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="PDSimpleFont">
-    <id specifcation="ISO_19005_1" clause="6.3.2" testNumber="5"/>
+    <id specification="ISO_19005_1" clause="6.3.2" testNumber="5"/>
     <description>All fonts used in a conforming file shall conform to the font specifications defined in PDF Reference 5.5. 
 			FirstChar - integer - (Required except for the standard 14 fonts) The first character code defined in the font's Widths array</description>
     <test>isStandard == true || LastChar != null</test>

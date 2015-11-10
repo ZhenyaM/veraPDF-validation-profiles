@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rule object="CosReal">
-    <id specifcation="ISO_19005_1" clause="6.1.12" testNumber="2"/>
+    <id specification="ISO_19005_1" clause="6.1.12" testNumber="2"/>
     <description>Absolute real value must be less than or equal to 32767.0</description>
     <test>(realValue &gt;= -32767.0) &amp;&amp; (realValue &lt;= 32767.0)</test>
     <error>
