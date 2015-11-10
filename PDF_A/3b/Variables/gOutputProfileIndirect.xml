@@ -1,0 +1,4 @@
+<variable name="gOutputProfileIndirect" object="PDOutputIntent">
+	<defaultValue>null</defaultValue>
+	<value>gOutputProfileIndirect == null ? destOutputProfileIndirect : gOutputProfileIndirect</value>
+</variable>
